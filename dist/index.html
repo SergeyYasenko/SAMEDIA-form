@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="css/style.min.css?_v=20240721195010">
+    <title>form SAMEDIA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+  </head>
+</html>
+<body>
+  <main class="main">
+    <div class="main__bg-block">
+      <div class="main__bg"></div>
+      <div class="main__bg"></div>
+      <div class="main__bg"></div>
+      <div class="main__bg"></div>
+    </div>
+    <section class="main__section section__form"><img class="section__logo form__logo" src="img/logo.svg" alt="Логотип компании">
+      <h1 class="section__title form__title">Авторизация</h1>
+      <form class="section__form form__section">
+        <div class="form__field-block">
+          <div class="form__field">
+            <label class="form__icon form__icon_email"></label>
+            <input class="form__input" id="name" autocomplete="off" placeholder="Email или телефон" type="text" name="email">
+          </div>
+          <div class="form__field">
+            <label class="form__icon form__icon_password"></label>
+            <input class="form__input" id="password" placeholder="Пароль" type="password" name="password">
+          </div><span class="form__error" id="error"></span>
+        </div>
+        <button class="form__button">войти</button>
+      </form>
+    </section>
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+  </main>
+</body>
+<script src="js/app.min.js?_v=20240721195010"></script>
